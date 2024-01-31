@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+}
+
+
+nav > h1 {
+    margin-left: 200px;
+    color: antiquewhite;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-right: 8%;
+    margin-top: -45px;
+
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+nav > a {
+    display: flex;
+    color: #d58700;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: antiquewhite;
+    padding: 15px;
+    margin-top: -60px;
+    margin-right: 150px;
+    font-size: x-large;
+    float: right;
+}
+
+nav > a:hover {
+    color: black;
+    background-color: #d58700;
+}
+
+nav > h2 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: medium;
+}
+
+#center {
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+@font-face {
+    src: url(assets/fonts/prata);
+    font-family: prata;
+}
+
+.btn {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 1.2em;
+    font-weight: 200px;
+    border-radius: 60%;
+    background-color: #be7800;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1;
+    bottom: 10%;
+    right: 92%;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  #nav1 {
+    background-color: #092635;
+    height: 1150px;
+    padding: 10px;
+  }
+
+  #nav2 {
+    background-color: #d7d7d7;
+    height: 1150px;
+    padding: 10px;
+    display: flex;
+  }
+
+
+
+
